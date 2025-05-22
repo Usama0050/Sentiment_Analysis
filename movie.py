@@ -50,7 +50,7 @@ MAX_SEQUENCE_LENGTH = 100
 
 # Begin form
 with st.form("titanic_form"):
-    st.title("🎬 Movie Review Sentiment Analyzer")
+    st.title("Sentiment Analyzer")
     st.write("Enter a movie review below to predict its sentiment.")
 
     review = st.text_area("Movie Review", height=150)
